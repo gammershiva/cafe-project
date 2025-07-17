@@ -10,10 +10,10 @@ const Navbar = () => {
 
   ];
   return (
-    <div className='bg-red-500 px-5 m-5 shadow-2xl'>
-      <div className='py-5 flex justify-between '>
+    <div className='bg-red-500   shadow-2xl'>
+      <div className='py-5 flex justify-between px-5'>
         {/* logo section  */}
-        <div className='text-4xl text-black font-semibold flex'>
+        <div className='text-4xl text-black font-semibold flex '>
           <Link className='hover:text-blue-800 border-hidden hover:scale-105 duration-500 hover:underline flex gap-4 items-center ' >
            <img src={img} alt="?" className="h-12 w-12 hover:fill-blue-500" /> khaja ghar</Link>
 
