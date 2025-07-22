@@ -19,7 +19,7 @@ const Navbar = () => {
 
         </div>
         {/* blogs */}
-        <div className='text-2xl flex gap-7 text-cyan-300 items-center '>
+        <div className='text-2xl  gap-7 text-cyan-300 items-center hidden md:flex '>
           {item.map((i)=>(
             <div>
               <a className='hover:text-white duration-300 '
